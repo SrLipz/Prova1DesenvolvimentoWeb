@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74, 47, 30);
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px 25px;
+    font-family: 'Ms Madi', cursive;
+}
+.logo-cafe{
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+}
+.buttonHeader{
+    border: solid white 2px;
+    background-color: rgb(74, 47, 30);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.welcome{
+    color: white;
+    font-size: 18px;
+    font-family: 'Ms Madi', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  15px 80px 15px 80px;
+}
+.mainContent {
+    flex: 1 0 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content:center;
+    
+  }
+.item{
+    width: 400px;
+    height: 310px;
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgcafeteria{
+    width: 395px;
+    height: 295px;
+}
+.paragraph{
+    font-size: 25px;
+    font-family: 'Ms Madi', cursive;
+}
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px;
+    text-align: end;
+}

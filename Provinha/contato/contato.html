@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contato/contato.css">
+    <script src="script.js"></script>
+    <title>Café do Bairro - Contato</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/Logo.png" alt="logo-cafe" class="logo-cafe">
+        <h1>Café do Bairro</h1>
+        <article>
+        <button class="buttonHeader"><a href="../inicio/index.html">Inicio</a></button>
+        <button class="buttonHeader"><a href="../menu/menu.html">Menu</a></button>
+        </article>
+    </header>
+    <article>
+        <section class="contatos">
+            <section id="telefone" class="item">
+                <h2>Telefone</h2>
+                <p>(11) 1234-5678</p>
+            </section>
+            <section id="horario" class="item">
+                <h2>Horário de Funcionamento</h2>
+                <p>Segunda a Sexta: 8:00 às 22:00</p>
+                <p>Sábados: 8:00 às 18:00</p>
+            </section>
+            <section id="endereco" class="item">
+                <h2>Endereço</h2>
+                <p>Av. Gov. Irineu Bornhausen, 5600, Florianópolis SC</p>
+            </section>
+            <section id="mapa" class="item">
+                <h2>Mapa</h2>
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1797042.7045077176!2d-50.98986462100738!3d-28.39362740141948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527386429a2f3c9%3A0xb8f7be137b67dae0!2zQmFyacOzIENhZsOp!5e0!3m2!1spt-BR!2sbr!4v1685665891891!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section id="contato">
+                <form name="myForm" onsubmit="return validateForm()" id="formulario-contato">
+                    <h2>Entre em Contato</h2>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" ></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </article>
+    <footer>
+        <p>Feito Por Felipe Lau</p>
+    </footer>
+    
+</body>
+</html>
